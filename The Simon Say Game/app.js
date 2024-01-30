@@ -4,11 +4,12 @@ let userSeq=[];
 let btns = ["yellow", "red","purple","green"];
 
 let started = false;
-let level = 0;
 
-let h2 = doucment.querySelector("h2");
+level = 0;
 
-docuument.addEventListener("keypress", function (){
+let h2 = document.querySelector("h2");
+
+document.addEventListener("keypress", function (){
     if (started == false) {
         console.log('game started');
         started = true;
