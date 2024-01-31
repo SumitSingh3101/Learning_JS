@@ -5,7 +5,7 @@ let btns = ["yellow", "red","purple","green"];
 
 let started = false;
 
-level = 0;
+let level = 0;
 
 let h2 = document.querySelector("h2");
 
@@ -31,7 +31,7 @@ function levelUp(){
 
     //random btn choose
 
-    let randIdx = Math.floorloor(Math.random()*3);
+    let randIdx = Math.floor(Math.random()*3);
     let randColor = btn[randIdx];
     let randbtn = document.querySelector(`.${randColor}`)
     console.log(randColor);
