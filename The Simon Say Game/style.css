@@ -38,3 +38,7 @@ body {
 .userFlash{
     background-color: green;
 }
+
+.endFlash{
+    background-color: yellow;
+}
