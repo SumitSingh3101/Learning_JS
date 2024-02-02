@@ -31,6 +31,10 @@ body {
     background-color: #63aac0;
 }
 
-.flash{
+.gameFlash{
     background-color: white;
+}
+
+.userFlash{
+    background-color: green;
 }
