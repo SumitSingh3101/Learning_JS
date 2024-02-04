@@ -98,3 +98,4 @@ function reset() {
 // if(hScore<level){
 //     hScore = level;
 // }
+
