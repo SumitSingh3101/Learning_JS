@@ -3,5 +3,4 @@ async function demo(){
     changeColor("orange", 1000);
     changeColor("green",1000);
     changeColor("blue", 1000);
-
 }
