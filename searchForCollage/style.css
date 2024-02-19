@@ -1,0 +1,17 @@
+body{
+    background-color: azure;
+    /* justify-content: center;
+    align-items: center; */
+    margin-left: 33rem;
+}
+
+h1{
+    font-size: 3rem;
+    /* justify-content: center;
+    align-items: center; */
+    /* margin-left: 3rem; */
+}
+
+input{
+    margin-left: 7rem;
+}
