@@ -13,7 +13,7 @@ function show(colArr){
     let list = document.querySelector("#list");
     list.innerText="";
     for(col of colArr){
-        consol.log(col.name);
+        console.log(col.name);
 
         let li = document.createElement("li");
         li.innerText = col.name;
@@ -30,3 +30,4 @@ async function getColleges(country){
         return[];
     }
 }
+
